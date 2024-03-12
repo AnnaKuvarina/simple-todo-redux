@@ -1,0 +1,30 @@
+.container {
+  position: relative;
+}
+
+.actionsBtn {
+  background: transparent;
+  padding: 4px;
+  border: none;
+}
+
+.actions {
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  margin: 0;
+  padding: 4px 0;
+  opacity: 1;
+  visibility: visible;
+  transition: 1s;
+}
+
+.hiddenActions {
+  opacity: 0;
+  visibility: hidden;
+}
+
+.actionRow {
+  padding: 4px 8px;
+  border-bottom: 1px solid #e0dfdf;
+}
